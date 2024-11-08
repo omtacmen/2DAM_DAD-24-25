@@ -13,7 +13,7 @@ o
 
 Nosotros vamos a utilizar:
 
-	npm create vite@latest
+		npm create vite@latest
 
 
 
