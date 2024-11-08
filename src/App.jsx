@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import PrimerComponente from './Components/PrimerComponente'
 import SegundoComponente from './Components/SegundoComponente'
+import ComponentePasoDatosPadreAHijo_Padre from './Components/ComponentePasoDatosPadreAHijo_Padre'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,10 @@ function App() {
       <PrimerComponente/>
       <hr></hr>
       <SegundoComponente/>
+      <hr></hr>
+
+      <h1>__Paso de parametros entre Padre a Hijo__</h1>
+      <ComponentePasoDatosPadreAHijo_Padre/>
       <hr></hr>
       
     </>
