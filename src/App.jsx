@@ -5,6 +5,7 @@ import './App.css'
 import PrimerComponente from './Components/PrimerComponente'
 import SegundoComponente from './Components/SegundoComponente'
 import ComponentePasoDatosPadreAHijo_Padre from './Components/ComponentePasoDatosPadreAHijo_Padre'
+import ComponentePasoDatosHijoAPadre_Padre from './Components/ComponentePasoDatosHijoAPadre_Padre'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,6 +30,10 @@ function App() {
 
       <h1>__Paso de parametros entre Padre a Hijo__</h1>
       <ComponentePasoDatosPadreAHijo_Padre/>
+      <hr></hr>
+
+      <h1>__Paso de parametros entre Hijo a Padre__</h1>
+      <ComponentePasoDatosHijoAPadre_Padre/>
       <hr></hr>
       
     </>
