@@ -30,8 +30,8 @@ export default function PrimerComponente() {
      setUpdated(nombre)
   }
 
-  return (
-    <div className='red'>
+    return (
+    <div>
         <h1>Esta es la llamada al primer componente</h1>
         
         <ul>

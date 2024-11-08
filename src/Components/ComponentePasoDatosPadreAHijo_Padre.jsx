@@ -18,7 +18,7 @@ export default function () {
   }
 
   return (
-    <div className='App'>
+    <div>
         {
          // <h4>Llamada a ComponentePasoDatosPadreAHijo_Padre</h4>
          // Nos encontramos en el componente Padre y llamamos al componente Hijo

@@ -1,6 +1,7 @@
 import React from 'react'
 // Definimos el componente pasándole como entrada los datos de un objeto en la variable padreAhijo
 export default function ComponentePasoDatosPadreAHijo_Hijo({padreAhijo}) {
+
   return (
     <div>
         {
